@@ -13,13 +13,19 @@
 
 Route::get('/', 'WelcomeController@index');
 
+Route::get('home', 'HomeController@index');
+
+// Rotas criadas por mim
+
 // Rota com o parâmetro 'user' obrigatório
 Route::get('/hello/{user}', 'WelcomeController@hello');
 
 // Rota com o parâmetro 'user' opcional
 Route::get('/hello/{user?}', 'WelcomeController@hello');
 
-Route::get('home', 'HomeController@index');
+// Rotas para adicionar Tasks
+Route::get('task/add', 'TaskController@getAdd');
+Route::post('task/add', 'TaskController@postAdd');
 
 /*
 |--------------------------------------------------------------------------
