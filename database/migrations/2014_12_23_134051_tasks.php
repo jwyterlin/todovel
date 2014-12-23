@@ -34,7 +34,7 @@ class Tasks extends Migration {
 	public function down() {
 
         Schema::dropIfExists('tasks'); //se a tabela existir, exclui
-        
+
 	}
 
 }
