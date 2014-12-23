@@ -21,6 +21,10 @@
                 </ul>
             @endif
 
+            @if ( isset($success) )
+               <h3>FUNCIONOU!</h3>
+            @endif
+
             {{ Form::open( array("action" => "TaskController@postAdd") ) }}
                 <label>
                     Tarefa a ser cumprida:
