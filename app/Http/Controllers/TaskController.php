@@ -1,4 +1,4 @@
-<?php
+<?php namespace App\Http\Controllers;
 /**
  * Created by PhpStorm.
  * User: Jhonathan Wyterlin
@@ -6,10 +6,10 @@
  * Time: 12:43 PM
  */
 
-class TaskController extends BaseController {
+class TaskController extends Controller {
 
 	public function getAdd() {
-		return View::make('views/viewAddTask');
+		return view('views/viewAddTask');
 	}
 
     public function postAdd() {
@@ -30,7 +30,7 @@ class TaskController extends BaseController {
             $task->titulo = Input::get('titulo');
             $task->save();
 
-            return View::make( 'views/viewAddTask' )->with('success', TRUE);
+            return view( 'views/viewAddTask' )->with('success', TRUE);
 
         }
 
