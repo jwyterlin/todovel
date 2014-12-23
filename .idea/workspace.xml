@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5499cbf8-43af-483a-a3f0-3620f1cf3224" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/templates/views/viewAddTask.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="laravel.iws" />
@@ -39,10 +39,19 @@
       <file leaf-file-name="TaskController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TaskController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="4" selection-start="255" selection-end="255" vertical-scroll-proportion="0.28052804" vertical-offset="0" max-vertical-offset="909">
+            <state line="28" column="25" selection-start="633" selection-end="633" vertical-scroll-proportion="0.4620462" vertical-offset="0" max-vertical-offset="909">
               <folding>
                 <element signature="e#6#101#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewAddTask.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/templates/views/viewAddTask.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="12" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,6 +85,7 @@
         <option value="$PROJECT_DIR$/storage/framework/views/a635beffbeba971a39680900b83ba7d2" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" />
+        <option value="$PROJECT_DIR$/resources/templates/views/viewAddTask.blade.php" />
       </list>
     </option>
   </component>
@@ -128,6 +138,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -528,13 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/templates/templateNice.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="29" selection-start="2837" selection-end="2837" vertical-scroll-proportion="0.15869565" vertical-offset="1294" max-vertical-offset="2250">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/storage/framework/views/a635beffbeba971a39680900b83ba7d2">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="114" selection-start="323" selection-end="323" vertical-scroll-proportion="0.40035588" vertical-offset="0" max-vertical-offset="562">
@@ -552,20 +609,6 @@
     <entry file="file://$PROJECT_DIR$/storage/framework/views/5cbc7098477a8814a9eedbf0a50276af">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="27" selection-start="61" selection-end="61" vertical-scroll-proportion="0.08007117" vertical-offset="0" max-vertical-offset="562">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/templates/views/viewNice.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="27" selection-start="61" selection-end="61" vertical-scroll-proportion="0.08007117" vertical-offset="0" max-vertical-offset="562">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/templates/views/viewHello.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="27" selection-start="61" selection-end="61" vertical-scroll-proportion="0.07692308" vertical-offset="0" max-vertical-offset="585">
           <folding />
         </state>
       </provider>
@@ -609,6 +652,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/templates/templateNice.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="29" selection-start="2837" selection-end="2837" vertical-scroll-proportion="0.0" vertical-offset="1330" max-vertical-offset="2250">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="29" selection-start="737" selection-end="737" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="615">
@@ -616,9 +666,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/templates/views/viewHello.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="27" selection-start="61" selection-end="61" vertical-scroll-proportion="0.048231512" vertical-offset="0" max-vertical-offset="933">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/templates/views/viewNice.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="27" selection-start="61" selection-end="61" vertical-scroll-proportion="0.048231512" vertical-offset="0" max-vertical-offset="933">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/templates/views/viewAddTask.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="12" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TaskController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="4" selection-start="255" selection-end="255" vertical-scroll-proportion="0.28052804" vertical-offset="0" max-vertical-offset="909">
+        <state line="28" column="25" selection-start="633" selection-end="633" vertical-scroll-proportion="0.4620462" vertical-offset="0" max-vertical-offset="909">
           <folding>
             <element signature="e#6#101#0" expanded="true" />
           </folding>

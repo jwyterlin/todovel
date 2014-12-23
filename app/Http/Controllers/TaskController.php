@@ -9,11 +9,25 @@
 class TaskController extends BaseController {
 
 	public function getAdd() {
-		return View::make('add_task');
+		return View::make('views/viewAddTask');
 	}
 
     public function postAdd() {
 
+        //criando regras de validação
+        $rules = array('titulo' => 'required');
+
+        //executando validação
+        $validation = Validator::make(Input::all(), $rules);
+
+        //se a validação deu errado
+        if ($validation->fails()) {
+            return Redirect::to('task/add')->withErrors($validation);
+        }
+
+        //sucesso
+        return "sucesso";
+
 	}
-    
+
 }
