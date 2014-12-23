@@ -13,6 +13,12 @@
 
 Route::get('/', 'WelcomeController@index');
 
+// Rota com o parâmetro 'user' obrigatório
+Route::get('/hello/{user}', 'WelcomeController@hello');
+
+// Rota com o parâmetro 'user' opcional
+Route::get('/hello/{user?}', 'WelcomeController@hello');
+
 Route::get('home', 'HomeController@index');
 
 /*

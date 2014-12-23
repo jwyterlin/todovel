@@ -30,7 +30,11 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
-		return view('welcome');
+		return view('views/viewNice');
 	}
+
+    public function hello( $user = null ) {
+    	return view('views/viewHello', array('user'=> $user) );
+    }
 
 }
