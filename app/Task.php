@@ -1,4 +1,4 @@
-<?php
+<?php namespace App;
 /**
  * Created by PhpStorm.
  * User: Jhonathan Wyterlin
@@ -6,5 +6,7 @@
  * Time: 12:32 PM
  */
 
-class Task extends Eloquent {
+use Illuminate\Database\Eloquent\Model;
+
+class Task extends Model {
 }

@@ -6,36 +6,27 @@
  * Time: 12:43 PM
  */
 
+use App\Http\Controllers\Controller;
+use App\Task;
+use App\Http\Requests\TaskRequest;
+use Illuminate\Http\Response;
+
 class TaskController extends Controller {
 
 	public function getAdd() {
 		return view('views/viewAddTask');
 	}
 
-    public function postAdd() {
+    public function postAdd( TaskRequest $request ) {
 
-        //criando regras de validação
-        $rules = array('titulo' => 'required');
+        $fieldTitulo = $request->input('titulo');
 
-        //executando validação
-        $validation = Validator::make(Input::all(), $rules);
+        // Validation was successful
+        $task = new Task();
+        $task->titulo = $fieldTitulo;
+        $task->save();
 
-        //se a validação deu errado
-        if ($validation->fails()) {
-            return Redirect::to('task/add')->withErrors($validation);
-        } else {
-
-            // Validation was successful
-            $task = new Task;
-            $task->titulo = Input::get('titulo');
-            $task->save();
-
-            return view( 'views/viewAddTask' )->with('success', TRUE);
-
-        }
-
-        //sucesso
-        return "success";
+        return view( 'views/viewAddTask' )->with('success', TRUE);
 
 	}
 
