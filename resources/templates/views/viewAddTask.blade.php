@@ -10,14 +10,14 @@
  @extends('template')
 
  @section('title')
-    Adicionando Tarefas
+    Adding Tasks
  @stop
 
  @section('content')
      <div class="row-fluid marketing">
          <div class="span6">
             @if ( count($errors) > 0)
-                Erros encontrados:<br />
+                Errors found:<br />
                 <ul>
                     @foreach ($errors->all() as $e)
                         <li>{{ $e }}</li>
@@ -26,12 +26,12 @@
             @endif
 
             @if ( isset($success) )
-               <h3>FUNCIONOU!</h3>
+               <h3>IT WORKED!</h3>
             @endif
 
             {!! Form::open( array("action" => "TaskController@postAdd") ) !!}
                 <label>
-                    Tarefa a ser cumprida:
+                    Task to do:
                     <input type="text" name="titulo" />
                 </label>
             {!! Form::submit('OK') !!}

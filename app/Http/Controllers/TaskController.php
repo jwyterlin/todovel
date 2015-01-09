@@ -30,4 +30,9 @@ class TaskController extends Controller {
 
 	}
 
+    public function listAllTasks() {
+       $tasks = Task::all();
+       return view('views/viewListTasks')->with('tasks', $tasks);
+    }
+
 }
