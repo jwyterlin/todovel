@@ -6,7 +6,7 @@
  * Time: 3:25 PM
  */
 
-class TaskRequest extends Request {
+class TaskAddRequest extends Request {
 
     /**
      * The URI to redirect to if validation fails

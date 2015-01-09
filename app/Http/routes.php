@@ -27,9 +27,12 @@ Route::get('/hello/{user?}', 'WelcomeController@hello');
 Route::get('task/add', 'TaskController@getAdd');
 Route::post('task/add', 'TaskController@postAdd');
 
-/* Listing tasks */
+// Listing tasks
 Route::any('task', 'TaskController@listAllTasks');
 Route::any('tasks', 'TaskController@listAllTasks');
+
+// Checking tasks
+Route::post('task/check', 'TaskController@check');
 
 /*
 |--------------------------------------------------------------------------
